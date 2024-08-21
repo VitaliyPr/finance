@@ -1092,7 +1092,7 @@ p {
 }
 
 .management__hand {
-  width: 30rem;
+  width: 21rem;
   height: auto;
   position: absolute;
   left: -100%;
@@ -1101,7 +1101,7 @@ p {
 }
 
 .management.show .management__hand {
-  left: -8.3rem;
+  left: 0;
 }
 
 .contact {
@@ -1664,8 +1664,8 @@ p {
   }
 
   .management__hand {
-    width: 52rem;
-    height: 41.4rem;
+    width: 41.95rem;
+    height: 41.35rem;
     top: 11.7rem;
   }
 

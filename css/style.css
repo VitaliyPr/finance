@@ -816,8 +816,8 @@ p {
 }
 
 .about-item-head__link {
-  width: 6.5rem;
-  height: 6.5rem;
+  width: 5rem;
+  height: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -856,7 +856,7 @@ p {
 }
 
 .services__hand {
-  width: 35rem;
+  width: 43rem;
   height: 19.5rem;
   position: absolute;
   right: -100%;
@@ -865,7 +865,7 @@ p {
 }
 
 .services.show .services__hand {
-  right: 0;
+  right: -6rem;
 }
 
 .risk {
@@ -1092,7 +1092,7 @@ p {
 }
 
 .management__hand {
-  width: 21rem;
+  width: 25rem;
   height: auto;
   position: absolute;
   left: -100%;
@@ -1101,7 +1101,7 @@ p {
 }
 
 .management.show .management__hand {
-  left: 0;
+  left: -4rem;
 }
 
 .contact {
@@ -1519,8 +1519,8 @@ p {
   }
 
   .about-item-head__link {
-    width: 6.9rem;
-    height: 6.9rem;
+    width: 5.4rem;
+    height: 5.4rem;
   }
 
   .services__container {
@@ -1532,9 +1532,13 @@ p {
   }
 
   .services__hand {
-    width: 65.7rem;
+    width: 76.7rem;
     height: 36.5rem;
     top: 0;
+  }
+
+  .services.show .services__hand {
+    right: -10rem;
   }
 
   .risk__container {
@@ -1664,7 +1668,7 @@ p {
   }
 
   .management__hand {
-    width: 41.95rem;
+    width: 44.95rem;
     height: 41.35rem;
     top: 11.7rem;
   }

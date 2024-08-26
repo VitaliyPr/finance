@@ -935,6 +935,10 @@ p {
   padding: 0 !important;
 }
 
+.risk-item__head.active .risk-item-head__title {
+  color: var(--white);
+}
+
 .risk-item__content p {
   font-family: Montserrat;
   font-size: 1.6rem;
@@ -973,7 +977,9 @@ p {
   font-size: 2.2rem;
   font-weight: 500;
   line-height: normal;
-  color: var(--white);
+  color: var(--bracken);
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
 }
 
 .marquee {

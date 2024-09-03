@@ -540,6 +540,12 @@ p {
 }
 
 .footer__container {
+  border-radius: 3rem;
+  background-color: var(--white);
+  padding: 3.6rem 0.4rem;
+}
+
+.footer__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -550,9 +556,12 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border-radius: 3rem;
-  background-color: var(--white);
-  padding: 3.6rem 0.4rem;
+}
+
+.footer__row:not(:last-child) {
+  border-bottom: 1px solid var(--bracken);
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .footer__logo:not(:last-child) {
@@ -561,6 +570,12 @@ p {
 
 .footer__text {
   font-size: 1.6rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer__text_small {
+  font-size: 1rem;
   font-weight: 400;
   line-height: normal;
 }
@@ -1241,17 +1256,32 @@ p {
 }
 
 .contact-info__link {
+  display: block;
+}
+
+.contact-info__link:not(:last-child) {
+  margin-bottom: 4.4rem;
+}
+
+.contact-info__link-head {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-column-gap: 1rem;
      -moz-column-gap: 1rem;
           column-gap: 1rem;
   color: var(--squash);
 }
 
-.contact-info__link:not(:last-child) {
-  margin-bottom: 4.4rem;
+.contact-info__link-head:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.contact-info__link-text {
+  color: var(--bracken);
 }
 
 .contact-info__link svg {
@@ -1371,6 +1401,10 @@ p {
   }
 
   .footer__container {
+    padding: 4.5rem 6rem 4.6rem 4.3rem;
+  }
+
+  .footer__row {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -1378,7 +1412,6 @@ p {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding: 4.5rem 6rem 4.6rem 4.3rem;
   }
 
   .footer__col .nav {
@@ -1397,6 +1430,10 @@ p {
   .footer__text {
     font-size: 1.8rem;
     max-width: 33.1rem;
+  }
+
+  .footer__text_small {
+    font-size: 1.2rem;
   }
 
   .hero__container {
@@ -1693,7 +1730,7 @@ p {
   .contact__picture {
     width: 53.6rem;
     height: 35.7377rem;
-    right: 3rem;
+    right: -20rem;
   }
 
   .contact-body__head:not(:last-child) {
@@ -1810,7 +1847,7 @@ p {
     text-align: right;
   }
 
-  .footer__container {
+  .footer__row {
     row-gap: 1.9rem;
   }
 
@@ -1819,6 +1856,10 @@ p {
   }
 
   .footer__text {
+    text-align: center;
+  }
+
+  .footer__text_small {
     text-align: center;
   }
 
